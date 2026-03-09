@@ -6,4 +6,4 @@
 [![Tech Report](https://img.shields.io/badge/Lab4%20Report-Read-blue)](./Lab4/README.md)
 
 - 本实验共 4 部分，分别位于Lab1-4目录下
-- 
+- 方便起见 部分代码是压缩包
