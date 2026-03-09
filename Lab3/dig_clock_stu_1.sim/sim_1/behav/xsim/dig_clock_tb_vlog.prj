@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../dig_clock_stu_1.srcs/sources_1/ip/bin2bcd_0/bin2bcd.sv" \
+"../../../../dig_clock_stu_1.srcs/sources_1/ip/bin2bcd_0/sim/bin2bcd_0.sv" \
+"../../../../dig_clock_stu_1.srcs/sources_1/new/clken.sv" \
+"../../../../dig_clock_stu_1.srcs/sources_1/new/dig_clock.sv" \
+"../../../../dig_clock_stu_1.srcs/sources_1/new/edge_detect.sv" \
+"../../../../dig_clock_stu_1.srcs/sources_1/new/timer.sv" \
+"../../../../dig_clock_stu_1.srcs/sources_1/new/x7seg_dec.sv" \
+"../../../../dig_clock_stu_1.srcs/sources_1/new/x7seg_scan.sv" \
+"../../../../dig_clock_stu_1.srcs/sim_1/new/dig_clock_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
